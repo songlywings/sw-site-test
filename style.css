@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/Inter-Variable.ttf);
+    font-weight: 400 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/Inter-Italic-Variable.ttf);
+    font-weight: 400 700;
+    font-style: italic;
+}
+
+:root {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    margin: 0
+}
+
+.test-container {
+    border-bottom: 5px dashed red;
+    padding: 30px;
+    height: 100%;
+}
+.skipper {
+    width: 10px;
+}
+
+.listen-button {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border: 2px solid silver;
+    color: silver;
+    cursor: pointer;
+    user-select: none;
+}
+.listen-button text {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+    font-size: 30px;
+}
+.listen-button svg {
+    width: 30px;
+    height: 30px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    fill: silver;
+    stroke: silver;
+}
+
+.listen-button-hover {
+    color: gold;
+    fill: gold;
+    stroke: gold;
+    border: 2px solid gold;
+    cursor: pointer;
+    user-select: none;
+}
+.listen-button-hover svg {
+    fill: gold;
+    stroke: gold;
+}
+
+.listen-button-hover-2 {
+    background: linear-gradient(45deg, #4a90e2, #b0bec5, #f8bbd0, #fff59d);
+    color: black;
+    border: 2px solid white;
+    cursor: pointer;
+    user-select: none;
+}
+.listen-button-hover-2 svg {
+    fill: black;
+    stroke: black;
+}
+
+.listen-button-2 {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+.listen-button-2 text {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+    font-size: 30px;
+}
+.listen-button-2 svg {
+    width: 30px;
+    height: 30px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    fill: white;
+    stroke: white;
+}
+
+.listen-button-2-hover {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+}
+.listen-button-2-hover svg {
+    fill: black;
+    stroke: black;
+}
+
+.listen-button-2-hover-2 {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(45deg, #4a90e2, #b0bec5, #f8bbd0, #fff59d);
+    color: black;
+    cursor: pointer;
+    user-select: none;
+}
+.listen-button-2-hover-2 svg {
+    fill: black;
+    stroke: black;
+}
+
+.circ {
+    border-radius: 10px;
+}
+.circ-2 {
+    border-radius: 1000px;
+}
+
+.artist {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+}
+.artist-logo {
+    width: 100%;
+    height: 100%;
+    /*background: rgba(255, 255, 255, 0.2);*/
+    display: flex;
+    justify-content: center;
+}
+.artist-logo svg {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    fill: white;
+    stroke: white;
+    color: white;
+}
+.artist-hover {
+    backdrop-filter: blur(7px);
+}
+
+.artist-2 {
+    background: black;
+    width: 300px;
+    height: 400px;
+}
+.artist-2 img {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
